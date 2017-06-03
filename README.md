@@ -79,7 +79,8 @@ const identificator = {
 - Finally, create the interface, to instanciate the right stategie :
 
 ```
-clientWit.message(message, {}).then(data => {
+// Message() function which will handle the message from the user
+    clientWit.message(message, {}).then(data => {
         // Entitys returned
         const entitys = data.entities
 
@@ -88,7 +89,7 @@ clientWit.message(message, {}).then(data => {
         let identificator = entitys.identificator[0].value
 
         // Get the value of the identificator to knwo which algorithm use
-        let StrategiesService = factory.getStrategies(identificator)
+        let StrategiesService = interface.getStrategies(identificator)
 
         // Then, instanciate the right algorithm
         const service = new StrategiesService()
