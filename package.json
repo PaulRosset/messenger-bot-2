@@ -1,0 +1,33 @@
+{
+  "name": "messenger-bot-2",
+  "version": "1.0.0",
+  "description": "An advanced Messenger bot with natural language processing and strategies pattern.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulRosset/messenger-bot-2.git"
+  },
+  "keywords": [
+    "javascript",
+    "messenger",
+    "bot",
+    "nodejs"
+  ],
+  "author": "Paul Rosset <paulrosset96@gmail.com> (http://paulrosset.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaulRosset/messenger-bot-2/issues"
+  },
+  "homepage": "https://github.com/PaulRosset/messenger-bot-2#readme",
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "express": "4.15.3",
+    "lodash": "4.17.4",
+    "moment-timezone": "0.5.13",
+    "node-wit": "4.2.0",
+    "superagent": "3.5.2"
+  }
+}
